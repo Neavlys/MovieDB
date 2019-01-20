@@ -3,9 +3,22 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomOttawaApp" parent="Theme.AppCompat.DayNight.DarkActionBar" >
+        <item name="colorAccent">@color/accent_material_light_1</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="holo">
+        <item name="colorAccent">#aaff0000</item>
     </style>
 
 </resources>

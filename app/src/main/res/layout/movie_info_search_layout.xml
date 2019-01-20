@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/searchedMoviePoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/searchedMovieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/searchedMoviePoster"/>
+
+    <TextView
+        android:id="@+id/searchedMovieYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/searchedMovieTitle"/>
+
+    <TextView
+        android:id="@+id/searchedMovieRated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@id/searchedMovieYear"/>
+
+    <TextView
+        android:id="@+id/searchedMovieRuntime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/searchedMovieRated"/>
+
+    <TextView
+        android:id="@+id/searchedMovieActors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@id/searchedMovieRuntime"/>
+
+    <TextView
+        android:id="@+id/searchedMoviePlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_below="@+id/searchedMovieActors" />
+
+    <Button
+    android:id="@+id/saveMovieBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

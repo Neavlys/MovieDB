@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">MovieDB</string>
+    <string name="movie">Movies</string>
+    <string name="movie_stats_btn">Statistics</string>
+    <string name="movie_search_btn">Search</string>
+    <string name="movie_save_btn">Save Movie</string>
+    <string name="movie_title">Title:</string>
+    <string name="movie_year">Year:</string>
+    <string name="movie_rated">Rated:</string>
+    <string name="movie_runtime">Runtime:</string>
+    <string name="movie_actors">Actors:</string>
+    <string name="movie_plot">Plot:</string>
+    <string name="movie_shortest">Shortest Movie:</string>
+    <string name="movie_longest">Longest Movie:</string>
+    <string name="movie_average">Average:</string>
+    <string name="movie_oldest">Oldest Movie:</string>
+    <string name="movie_newest">Newest Movie:</string>
+    <string name="movie_back">Back to Menu</string>
+    <string name="movie_confirm_back">Are you sure you want to go back?</string>
+    <string name="movie_delete">Delete</string>
+    <string name="movie_confirm_delete">Delete saved movie?</string>
+    <string name="movie_ok">Ok</string>
+    <string name="movie_yes">Yes</string>
+    <string name="movie_cancel">Cancel</string>
+    <string name="movie_min">min</string>
+    <string name="movie_saved_toast">Movie Saved</string>
+    <string name="movie_already_saved_toast">Movie Already Saved</string>
+    <string name="movie_deleted_toast">Movie Deleted</string>
+    <string name="movie_not_found_snackbar">Movie Not Found, Try Again</string>
+    <string name="movie_help">Help Menu</string>
+    <string name="movie_created_by">Created By: Sylvain Cashman</string>
+    <string name="movie_activity_version">Activity Version: 1.0</string>
+    <string name="movie_instructions_main">Instructions:\n-Enter movie name into text field and press search button to find movie.\n-Press saved movie to view movie information.\n-Long hold saved movie to bring up delete dialog.\n-Press statistics button to view statistics on your saved movies.\ni.e shortest movie runtime.</string>
+    <string name="movie_instructions_search">Instructions:\n-Use save button to save a movie for later viewing.\n-Use back button to return to saved movies list.</string>
+    <string name="movie_instructions_saved_stats">Instructions:\nUse back button to return to saved movies list.</string>
 </resources>
